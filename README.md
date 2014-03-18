@@ -16,17 +16,18 @@ x = []
 for perm in perms:
 	if perm in sowpods:
 		x.append(perm)
-s
+s=0
 for b in x:
 	letters = list(b)
 	for letter in letters:
 		s+=scores[letter.lower]
+#this breaks up the letters of a word and then finds its score
 sum(s)
 
 
 
 
-
+#will s equal the total of the scores of all the words
 
 
 
